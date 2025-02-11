@@ -1,6 +1,15 @@
-function greet(x) {
-    alert("Hello, my name is Jayeh")
-    console.log(`Hello, my name is ${x}.`)
+let cat = {
+    name: "Oishi",
+    age: 3,
+    food: {
+        favorite: "fish",
+        avoid: "meat"
+    },
+    color: "white",
+    weight: 4,
+    meow() {
+        console.log("Meooooooooooow!")
+    }
 }
 
-greet("Jayeh")
+console.log(cat.food.favorite)
